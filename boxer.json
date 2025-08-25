@@ -1,0 +1,21 @@
+{
+    "name": "Floyd Mayweather Jr",
+    "sex": "male",
+    "country": "USA",
+    "bouts": 50,
+    "wins": 50,
+    "wko": 27,
+    "losts": 0,
+    "draw": 0,
+    "title-wins": 32,
+    "title-draw": 0,
+    "current_weight_class": "Welterweight",
+    "divisions": [
+        8,
+        9,
+        10,
+        11,
+        12
+    ],
+    "image_url": "https://fightnights.com/uploads/Flloyd-Mayweather.jpg"
+}
