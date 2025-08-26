@@ -1,21 +1,65 @@
-{
-    "name": "Floyd Mayweather Jr",
-    "sex": "male",
-    "country": "USA",
-    "bouts": 50,
-    "wins": 50,
-    "wko": 27,
-    "losts": 0,
-    "draw": 0,
-    "title-wins": 32,
-    "title-draw": 0,
-    "current_weight_class": "Welterweight",
-    "divisions": [
-        8,
-        9,
-        10,
-        11,
-        12
-    ],
-    "image_url": "https://fightnights.com/uploads/Flloyd-Mayweather.jpg"
-}
+[
+    {
+        "name": "Saul Alvarez",
+        "sex": "male",
+        "country": "Mexico",
+        "bouts": 67,
+        "wins": 63,
+        "wko": 39,
+        "losts": 2,
+        "draw": 2,
+        "title-wins": 16,
+        "height": "5'7½\"",
+        "reach": "70½\"",
+        "divisions": [
+            12,
+            13,
+            14,
+            15
+        ],
+        "image_url": ""
+    },
+    {
+        "name": "Terence Crawford",
+        "sex": "male",
+        "country": "United States",
+        "bouts": 41,
+        "wins": 41,
+        "wko": 31,
+        "losts": 0,
+        "draw": 0,
+        "title-wins": 14,
+        "height": "5'8\"",
+        "reach": "74\"",
+        "divisions": [
+            9,
+            10,
+            11,
+            12
+        ],
+        "image_url": ""
+    },
+    {
+        "name": "Floyd Mayweather Jr",
+        "sex": "male",
+        "country": "United States",
+        "bouts": 50,
+        "wins": 50,
+        "wko": 27,
+        "losts": 0,
+        "draw": 0,
+        "title-wins": 26,
+        "title-draw": 0,
+        "height": "5'8",
+        "reach": "72",
+        "divisions": [
+            7,
+            8,
+            9,
+            11,
+            12,
+            13
+        ],
+        "image_url": ""
+    }
+]

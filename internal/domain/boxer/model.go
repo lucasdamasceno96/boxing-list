@@ -22,17 +22,16 @@ type Boxer struct {
 	Country string `gorm:"type:varchar(50)" json:"country"`
 
 	// --- Fight Record ---
-	Bouts      int `json:"bouts"`
-	Wins       int `json:"wins"`
-	WinsKO     int `json:"wko"`
-	Losses     int `json:"losts"`
-	Draws      int `json:"draw"`
-	TitleWins  int `json:"title-wins"`
-	TitleDraws int `json:"title-draw"`
+	Bouts     int `json:"bouts"`
+	Wins      int `json:"wins"`
+	WinsKO    int `json:"wko"`
+	Losses    int `json:"losts"`
+	Draws     int `json:"draw"`
+	TitleWins int `json:"title-wins"`
 
 	// --- Weight Class Info ---
-	// CurrentWeightClass stores the name of the boxer's current division.
-	CurrentWeightClass string `gorm:"type:varchar(50)" json:"current_weight_class"`
+	Height string `gorm:"type:varchar(50)" json:"height"`
+	Reach  string `gorm:"type:varchar(50)" json:"reach"`
 
 	// Divisions stores a list of WeightClassIDs where the boxer has fought.
 	// It's stored as a JSON array in the database.
